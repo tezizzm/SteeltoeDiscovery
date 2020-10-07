@@ -1,0 +1,7 @@
+applications:
+- name: discovery
+  buildpacks:
+  - dotnet_core_buildpack
+  memory: 256M
+  services:
+  - service-registry
