@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Steeltoe.Connector.CloudFoundry" Version="3.0.0" />
     <PackageReference Include="Steeltoe.Discovery.ClientCore" Version="3.0.0" />
     <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.0.0" />
     <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundryCore" Version="3.0.0" />
